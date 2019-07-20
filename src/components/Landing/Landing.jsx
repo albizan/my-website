@@ -5,13 +5,11 @@ import { backgroundColor, textColor } from '../../theme'
 const Landing = () => {
   /* 
     Define wrapper for current component
-    Used to theme component with styledComponets and styledTheming
+    Used to theme component with styledComponents and styledTheming
   */
   const ThemedWrapper = styled.div`
-    background-color: ${backgroundColor};
-    color: ${textColor}
-    margin: 0;
-    padding: 0;
+    background-color: ${backgroundColorDarker};
+    color: ${textColor};
   `
 
   return (
