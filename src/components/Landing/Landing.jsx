@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { withTheme } from 'styled-components'
-import { backgroundColor, textColor } from '../../theme'
+import { backgroundColorDarker, textColor } from '../../theme'
 
 const Landing = () => {
   /* 
