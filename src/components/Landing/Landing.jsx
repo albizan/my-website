@@ -14,8 +14,9 @@ const Landing = () => {
 
   return (
     <ThemedWrapper>
-      <div className="h-screen flex justify-center items-center">
-        <h1>Hello World!</h1>
+      <div className="h-screen flex flex-col justify-center items-center">
+        <h1 className="text-4xl">Hello World!</h1>
+        <h2 className="text-2xl">My name is Alberto Zanotti</h2>
       </div>
     </ThemedWrapper>
   )
