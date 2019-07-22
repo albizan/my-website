@@ -1,12 +1,12 @@
 import theme from 'styled-theming'
 
 export const backgroundColorDarker = theme('mode', {
-  light: '#efefef',
+  light: '##ffffff',
   dark: '#202123',
 })
 
 export const backgroundColorLighter = theme('mode', {
-  light: '#efefef',
+  light: '##ffffff',
   dark: '#202123',
 })
 
@@ -15,12 +15,7 @@ export const textColor = theme('mode', {
   dark: '#efefef',
 })
 
-export const toggleBackgroundColor = theme('mode', {
-  light: '#202123',
-  dark: '#efefef',
-})
-
-export const toggleTextColor = theme('mode', {
-  light: '#efefef',
-  dark: '#202123',
+export const accentColor1 = theme('mode', {
+  light: '#8b43ff',
+  dark: '#b7ff43',
 })
