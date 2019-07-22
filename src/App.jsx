@@ -7,20 +7,21 @@ import ThemeToggle from './components/ThemeToggle'
 import { backgroundColorDarker, textColor } from './theme'
 
 function App() {
-  /* Define The Wrapper of the App, used to theme generic backgrounds and text color */
-  const ThemedApp = styled.div`
+  /* Styling App with theme variables */
+  const AppStyleWrapper = styled.div`
     font-family: 'Quicksand';
+    font-size: 1rem;
     background-color: ${backgroundColorDarker};
     color: ${textColor};
   `
 
   return (
-    <ThemedApp>
+    <AppStyleWrapper>
       <ThemeToggle />
       <Landing />
-    </ThemedApp>
+    </AppStyleWrapper>
   )
 }
 
-/* Export HOC, use styled-theming */
+/* Export HOC, use styled-theming to inject theme prop to App component */
 export default withTheme(App)
