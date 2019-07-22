@@ -3,30 +3,33 @@ import styled, { withTheme } from 'styled-components'
 
 /* Custom */
 import { useThemes } from '../../context/theme/context'
-import { toggleBackgroundColor, toggleTextColor } from '../../theme'
+import { backgroundColorDarker, accentColor1 } from '../../theme'
 
 const ThemeToggle = ({ theme }) => {
   /* Retreive toggle function from context */
   const { toggle } = useThemes()
-  /* Define styled wrapper for togglea */
-  const ThemedToggle = styled.div`
-    background-color: ${toggleBackgroundColor};
-    color: ${toggleTextColor};
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    padding: 1rem;
-    border-radius: 3rem;
-    cursor: pointer;
+
+  const Toggle = styled.button`
+    margin: 2rem 2rem 0 0;
+    font-weight: bold;
+    color: ${accentColor1};
+    border-radius: 1.2rem;
+    border: 2px solid ${accentColor1};
+    padding: 0.5rem 1rem;
+    &:hover {
+      color: ${backgroundColorDarker};
+      background-color: ${accentColor1};
+    }
   `
+
   return (
-    <ThemedToggle theme={theme} onClick={toggle}>
-      <p className="text-xs">
+    <div className="absolute top-0 right-0">
+      <Toggle onClick={toggle}>
         {theme.mode === 'light' ? 'Go Black' : 'Go White'}
-      </p>
-    </ThemedToggle>
+      </Toggle>
+    </div>
   )
 }
 
-/* withTheme allows to use theme prop */
+/* withTheme allows to use theme prop in ThemeToggle */
 export default withTheme(ThemeToggle)
