@@ -1,12 +1,12 @@
 import theme from 'styled-theming'
 
 export const backgroundColorDarker = theme('mode', {
-  light: '##ffffff',
+  light: '#ffffff',
   dark: '#202123',
 })
 
 export const backgroundColorLighter = theme('mode', {
-  light: '##ffffff',
+  light: '#ffffff',
   dark: '#202123',
 })
 
