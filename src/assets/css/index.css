@@ -576,9 +576,9 @@ video {
 
 /* Custom Styles */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap');
+/* Utopia font from Adobe */
 
-@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+@import url('https://use.typekit.net/frg8kae.css');
 
 .container {
   width: 100%;
