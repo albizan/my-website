@@ -17,9 +17,12 @@ const Landing = () => {
   return (
     <LandingStyleWrapper>
       <div className="h-screen flex justify-center items-center">
-        <p className="text-2xl sm:text-4xl text-center font-bold">
-          Hi There! My name's Alberto
-        </p>
+        <div className="mx-4 tracking-wide text-center ">
+          <p className="text-xl sm:text-3xl font-bold">
+            Hello There! My name's Alberto
+          </p>
+          <p className="sm:text-xl font-thin">I am a junior web developer</p>
+        </div>
       </div>
     </LandingStyleWrapper>
   )
