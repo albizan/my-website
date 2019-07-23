@@ -10,12 +10,11 @@ const ThemeToggle = ({ theme }) => {
   const { toggle } = useThemes()
 
   const Toggle = styled.button`
-    margin: 2rem 2rem 0 0;
-    font-weight: bold;
+    margin: 1.5rem 1.5rem 0 0;
     color: ${accentColor1};
     border-radius: 1.2rem;
     border: 2px solid ${accentColor1};
-    padding: 0.5rem 1rem;
+    transition: background 0.5s;
     &:hover {
       color: ${backgroundColorDarker};
       background-color: ${accentColor1};
@@ -24,7 +23,7 @@ const ThemeToggle = ({ theme }) => {
 
   return (
     <div className="absolute top-0 right-0">
-      <Toggle onClick={toggle}>
+      <Toggle onClick={toggle} className="text-xs sm:text-sm px-3 py-2">
         {theme.mode === 'light' ? 'Go Black' : 'Go White'}
       </Toggle>
     </div>
