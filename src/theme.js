@@ -11,7 +11,7 @@ export const backgroundColorLighter = theme('mode', {
 })
 
 export const textColor = theme('mode', {
-  light: '#202123',
+  light: '#36312b',
   dark: '#efefef',
 })
 
