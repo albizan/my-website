@@ -9,7 +9,7 @@ import { backgroundColorDarker, textColor } from './theme'
 function App() {
   /* Styling App with theme variables */
   const AppStyleWrapper = styled.div`
-    font-family: 'Quicksand';
+    font-family: 'utopia-std';
     font-size: 1rem;
     background-color: ${backgroundColorDarker};
     color: ${textColor};
