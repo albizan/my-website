@@ -19,7 +19,7 @@ const Landing = () => {
     background-image: linear-gradient(
       45deg,
       ${landingBackgroundLighter} 0%,
-      ${landingBackgroundDarker} 100%
+      ${landingBackgroundDarker} 75%
     );
   `
 
@@ -30,7 +30,7 @@ const Landing = () => {
           <p className="text-4xl md:text-5xl font-bold">
             Hello There! My name's Alberto
           </p>
-          <p className="text-2xl md:text-3xl font-thin">
+          <p className="text-2xl md:text-3xl font-semibold">
             I am a junior web developer
           </p>
         </div>
