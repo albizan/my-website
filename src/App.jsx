@@ -13,7 +13,7 @@ import { baseTextColor, baseBackgroundColor } from './themes/base'
 function App() {
   /* Styling App with theme variables */
   const AppStyleWrapper = styled.section`
-    font-family: 'utopia-std';
+    font-family: 'Titillium Web';
     background-color: ${baseBackgroundColor};
     color: ${baseTextColor};
   `
