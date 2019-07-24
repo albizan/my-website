@@ -4,15 +4,15 @@ import styled, { withTheme } from 'styled-components'
 /* Custom */
 import Landing from './components/Landing'
 import ThemeToggle from './components/ThemeToggle'
-import { backgroundColorDarker, textColor } from './theme'
+import { baseTextColor, baseBackgroundColor } from './themes/base'
 
 function App() {
   /* Styling App with theme variables */
   const AppStyleWrapper = styled.div`
     font-family: 'utopia-std';
     font-size: 1rem;
-    background-color: ${backgroundColorDarker};
-    color: ${textColor};
+    background-color: ${baseBackgroundColor};
+    color: ${baseTextColor};
   `
 
   return (
