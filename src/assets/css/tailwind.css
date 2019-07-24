@@ -2,8 +2,8 @@
 
 /* Custom Styles */
 
-/* Utopia font from Adobe */
-@import url('https://use.typekit.net/frg8kae.css');
+/* Titiliium font from Gogole Fonts */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap');
 
 @tailwind components;
 

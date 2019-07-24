@@ -576,9 +576,9 @@ video {
 
 /* Custom Styles */
 
-/* Utopia font from Adobe */
+/* Titiliium font from Gogole Fonts */
 
-@import url('https://use.typekit.net/frg8kae.css');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap');
 
 .container {
   width: 100%;
