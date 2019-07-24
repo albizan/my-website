@@ -2,15 +2,18 @@ import React from 'react'
 import styled, { withTheme } from 'styled-components'
 
 /* Custom */
-import Landing from './components/Landing'
 import ThemeToggle from './components/ThemeToggle'
+import Landing from './components/Landing'
+import Greetings from './components/Greetings/Greetings'
+import Presentation from './components/Presentation/Presentation'
+
+/* Import Theme variables */
 import { baseTextColor, baseBackgroundColor } from './themes/base'
 
 function App() {
   /* Styling App with theme variables */
-  const AppStyleWrapper = styled.div`
+  const AppStyleWrapper = styled.section`
     font-family: 'utopia-std';
-    font-size: 1rem;
     background-color: ${baseBackgroundColor};
     color: ${baseTextColor};
   `
@@ -19,6 +22,8 @@ function App() {
     <AppStyleWrapper>
       <ThemeToggle />
       <Landing />
+      <Greetings />
+      <Presentation />
     </AppStyleWrapper>
   )
 }
