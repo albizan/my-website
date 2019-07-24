@@ -3,7 +3,13 @@ import styled, { withTheme } from 'styled-components'
 
 /* Custom */
 import { useThemes } from '../../context/theme/context'
-import { backgroundColorDarker, accentColor1 } from '../../theme'
+import {
+  toggleTextColor,
+  toggleBorderColor,
+  toggleBackgroundColor,
+  toggleHoverTextColor,
+  toggleHoverBackgroundColor,
+} from '../../themes/toggle'
 
 const ThemeToggle = ({ theme }) => {
   /* Retreive toggle function from context */
@@ -11,20 +17,24 @@ const ThemeToggle = ({ theme }) => {
 
   const Toggle = styled.button`
     margin: 1.5rem 1.5rem 0 0;
-    color: ${accentColor1};
+    color: ${toggleTextColor};
+    background-color: ${toggleBackgroundColor};
     border-radius: 1.2rem;
-    border: 2px solid ${accentColor1};
+    border: 2px solid ${toggleBorderColor};
     transition: background 0.5s;
     &:hover {
-      color: ${backgroundColorDarker};
-      background-color: ${accentColor1};
+      color: ${toggleHoverTextColor};
+      background-color: ${toggleHoverBackgroundColor};
     }
   `
 
   return (
     <div className="absolute top-0 right-0">
-      <Toggle onClick={toggle} className="text-xs sm:text-sm px-3 py-2">
-        {theme.mode === 'light' ? 'Go Black' : 'Go White'}
+      <Toggle
+        onClick={toggle}
+        className="text-xs sm:text-sm font-bold px-3 py-2"
+      >
+        {theme.mode === 'light' ? 'Go Dark' : 'Go Light'}
       </Toggle>
     </div>
   )
