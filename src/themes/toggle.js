@@ -3,15 +3,15 @@ import theme from 'styled-theming'
 /* Toggle Theme Colors */
 export const toggleTextColor = theme('mode', {
   light: '#efefef',
-  dark: '#f8d73a',
+  dark: '#ec625f',
 })
 export const toggleHoverTextColor = theme('mode', {
   light: '#8c51c9',
-  dark: '#202123',
+  dark: '#29323c',
 })
 export const toggleBorderColor = theme('mode', {
   light: '#efefef',
-  dark: '#f8d73a',
+  dark: '#ec625f',
 })
 export const toggleBackgroundColor = theme('mode', {
   light: '#8a4fc7',
@@ -19,5 +19,5 @@ export const toggleBackgroundColor = theme('mode', {
 })
 export const toggleHoverBackgroundColor = theme('mode', {
   light: '#efefef',
-  dark: '#f8d73a',
+  dark: '#ec625f',
 })
