@@ -17,6 +17,6 @@ export const baseTextColorInverted = theme('mode', {
 })
 
 export const accentColor = theme('mode', {
-  light: '#8a4fc7',
+  light: '#6c5ce7',
   dark: '#ec625f',
 })

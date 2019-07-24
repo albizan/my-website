@@ -6,7 +6,7 @@ export const toggleTextColor = theme('mode', {
   dark: '#ec625f',
 })
 export const toggleHoverTextColor = theme('mode', {
-  light: '#8c51c9',
+  light: '#6c5ce7',
   dark: '#29323c',
 })
 export const toggleBorderColor = theme('mode', {
@@ -14,7 +14,7 @@ export const toggleBorderColor = theme('mode', {
   dark: '#ec625f',
 })
 export const toggleBackgroundColor = theme('mode', {
-  light: '#8a4fc7',
+  light: '#6c5ce7',
   dark: '#29323c',
 })
 export const toggleHoverBackgroundColor = theme('mode', {
