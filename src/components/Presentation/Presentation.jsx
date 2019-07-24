@@ -12,10 +12,10 @@ const PresentationStyleWrapper = styled.section`
 const Presentation = () => {
   return (
     <PresentationStyleWrapper className="relative flex items-center">
-      <div className="absolute top-0 left-0 right-0 w-2/5 bg-gray-800 py-8 mx-auto -mt-10 rounded-lg flex justify-center items-center">
+      <div className="absolute top-0 left-0 right-0 w-2/5 bg-gray-800 py-4 mx-auto -mt-8 sm:py-6 sm:-mt-12 rounded-lg flex justify-center items-center">
         <h2 className="text-lg sm:text-3xl font-bold">Who am I?</h2>
       </div>
-      <div className="mx-auto px-8 py-20 md:w-3/5 text-center sm:text-lg font-thin">
+      <div className="mx-auto px-8 py-20 md:w-3/5 text-center text-lg sm:text-xl font-semibold">
         <p>
           My name is Aberto Zanotti, I am a 23 years old geek located in
           beautiful Turin, Italy
