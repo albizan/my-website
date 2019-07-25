@@ -13,9 +13,9 @@ const PresentationStyleWrapper = styled.section`
   color: ${textColor};
   background-color: ${backgroundDarker};
   background-image: linear-gradient(
-    135deg,
+    45deg,
     ${backgroundLighter} 0%,
-    ${backgroundDarker} 75%
+    ${backgroundDarker} 90%
   );
 `
 
@@ -23,7 +23,7 @@ const Presentation = () => {
   return (
     <PresentationStyleWrapper className="flex flex-col items-center justify-center py-16">
       <h2 className="text-3xl sm:text-4xl font-bold mb-8">Who am I?</h2>
-      <div className="mx-auto px-8 md:w-3/5 sm:text-center text-lg sm:text-xl font-semibold">
+      <div className="mx-auto px-8 md:w-3/5 text-justify text-lg sm:text-xl font-semibold">
         <p>
           My name is Aberto Zanotti, I am a 23 years old geek located in
           beautiful Turin, Italy
