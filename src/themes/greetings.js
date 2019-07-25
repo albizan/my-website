@@ -1,16 +1,16 @@
 import theme from 'styled-theming'
 
 export const textColor = theme('mode', {
-  light: '#efefef',
+  light: '#393d46',
   dark: '#efefef',
 })
 
 /* Background colors */
 export const backgroundLighter = theme('mode', {
-  light: '#77B4D8',
-  dark: '#191919',
+  light: '#fdfdfd',
+  dark: '#f5576c',
 })
 export const backgroundDarker = theme('mode', {
-  light: '#6e45e2',
-  dark: '#191919',
+  light: '#fdfdfd',
+  dark: '#6d5ce8',
 })

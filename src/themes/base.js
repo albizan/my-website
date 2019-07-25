@@ -2,7 +2,7 @@ import theme from 'styled-theming'
 
 export const baseBackgroundColor = theme('mode', {
   light: '#fdfdfd',
-  dark: '#2a2e37',
+  dark: '#000',
 })
 
 export const baseTextColor = theme('mode', {
@@ -13,9 +13,4 @@ export const baseTextColor = theme('mode', {
 export const baseTextColorInverted = theme('mode', {
   light: '#fdfdfd',
   dark: '#393d46',
-})
-
-export const accentColor = theme('mode', {
-  light: '#6c5ce7',
-  dark: '#1a31bb',
 })
