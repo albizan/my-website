@@ -2,7 +2,6 @@ import React from 'react'
 import styled, { withTheme } from 'styled-components'
 
 /* Custom imports */
-import { accentColor } from '../../themes/base'
 import {
   textColor,
   backgroundLighter,
@@ -15,7 +14,7 @@ const PresentationStyleWrapper = styled.section`
   background-image: linear-gradient(
     45deg,
     ${backgroundLighter} 0%,
-    ${backgroundDarker} 90%
+    ${backgroundDarker} 60%
   );
 `
 

@@ -32,7 +32,7 @@ const ThemeToggle = ({ theme }) => {
     <div className="absolute top-0 right-0">
       <Toggle
         onClick={toggle}
-        className="text-xs sm:text-sm font-bold px-3 py-2"
+        className="text-xs text-sm sm:text-base font-bold px-4 py-2"
       >
         {theme.mode === 'light' ? 'Go Dark' : 'Go Light'}
       </Toggle>
