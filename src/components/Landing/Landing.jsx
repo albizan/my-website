@@ -26,8 +26,8 @@ const Landing = () => {
 
   return (
     <LandingStyleWrapper>
-      <div className="h-screen flex flex-col justify-center items-center select.none">
-        <div className="tracking-wide text-center px-2 mt-40">
+      <div className="h-screen flex flex-col justify-center items-center select-none">
+        <div className="tracking-wide text-center px-3 mt-24">
           <p className="text-4xl md:text-5xl font-bold">
             Hello There! My name's Alberto
           </p>
@@ -35,7 +35,7 @@ const Landing = () => {
             I am a junior web developer
           </p>
         </div>
-        <div className="w-40 sm:w-56 mt-8">
+        <div className="w-32 sm:w-56 mt-16">
           <img className="rounded-full" src={avatar} alt="my avatar" />
         </div>
       </div>
