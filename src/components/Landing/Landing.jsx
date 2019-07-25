@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { withTheme } from 'styled-components'
 
 /* Custom Imports */
+import avatar from '../../assets/img/avatar.png'
 import {
   landingTextColor,
   landingBackgroundLighter,
@@ -25,14 +26,17 @@ const Landing = () => {
 
   return (
     <LandingStyleWrapper>
-      <div className="h-screen flex justify-center items-center select.none">
-        <div className="tracking-wide text-center px-2">
+      <div className="h-screen flex flex-col justify-center items-center select.none">
+        <div className="tracking-wide text-center px-2 mt-40">
           <p className="text-4xl md:text-5xl font-bold">
             Hello There! My name's Alberto
           </p>
           <p className="text-2xl md:text-3xl font-semibold">
             I am a junior web developer
           </p>
+        </div>
+        <div className="w-40 sm:w-56 mt-8">
+          <img className="rounded-full" src={avatar} alt="my avatar" />
         </div>
       </div>
     </LandingStyleWrapper>
