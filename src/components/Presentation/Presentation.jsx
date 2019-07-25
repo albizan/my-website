@@ -2,20 +2,28 @@ import React from 'react'
 import styled, { withTheme } from 'styled-components'
 
 /* Custom imports */
-import { baseTextColorInverted, accentColor } from '../../themes/base'
+import { accentColor } from '../../themes/base'
+import {
+  textColor,
+  backgroundLighter,
+  backgroundDarker,
+} from '../../themes/presentation'
 
 const PresentationStyleWrapper = styled.section`
-  background-color: ${accentColor};
-  color: ${baseTextColorInverted};
+  color: ${textColor};
+  background-color: ${backgroundDarker};
+  background-image: linear-gradient(
+    135deg,
+    ${backgroundLighter} 0%,
+    ${backgroundDarker} 75%
+  );
 `
 
 const Presentation = () => {
   return (
-    <PresentationStyleWrapper className="relative flex items-center">
-      <div className="absolute top-0 left-0 right-0 w-2/5 bg-gray-800 py-4 mx-auto -mt-8 sm:py-6 sm:-mt-12 rounded-lg flex justify-center items-center">
-        <h2 className="text-lg sm:text-3xl font-bold">Who am I?</h2>
-      </div>
-      <div className="mx-auto px-8 py-20 md:w-3/5 text-center text-lg sm:text-xl font-semibold">
+    <PresentationStyleWrapper className="flex flex-col items-center justify-center py-16">
+      <h2 className="text-3xl sm:text-4xl font-bold mb-8">Who am I?</h2>
+      <div className="mx-auto px-8 md:w-3/5 sm:text-center text-lg sm:text-xl font-semibold">
         <p>
           My name is Aberto Zanotti, I am a 23 years old geek located in
           beautiful Turin, Italy
