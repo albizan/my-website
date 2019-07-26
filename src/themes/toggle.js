@@ -7,11 +7,11 @@ export const toggleTextColor = theme('mode', {
 })
 export const toggleBorderColor = theme('mode', {
   light: '#efefef',
-  dark: '#6d5ce8',
+  dark: '#f39c12',
 })
 export const toggleBackgroundColor = theme('mode', {
   light: '#efefef',
-  dark: '#6d5ce8',
+  dark: '#f39c12',
 })
 
 /* Hover */
@@ -21,5 +21,5 @@ export const toggleHoverTextColor = theme('mode', {
 })
 export const toggleHoverBackgroundColor = theme('mode', {
   light: '#efefef',
-  dark: '#6d5ce8',
+  dark: '#f39c12',
 })
