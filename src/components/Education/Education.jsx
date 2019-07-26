@@ -6,7 +6,7 @@ import {
   textColor,
   backgroundLighter,
   backgroundDarker,
-} from '../../themes/greetings'
+} from '../../themes/education'
 
 const EducationStyleWrapper = styled.section`
   color: ${textColor};
