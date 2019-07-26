@@ -35,7 +35,7 @@ const Landing = () => {
             I am a junior web developer
           </p>
         </div>
-        <div className="w-32 h-32 sm:w-56 sm:w-56 mt-16">
+        <div className="w-32 h-32 sm:w-48 sm:w-48 mt-8">
           <img className="rounded-full" src={avatar} alt="my avatar" />
         </div>
       </div>
