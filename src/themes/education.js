@@ -12,5 +12,5 @@ export const backgroundLighter = theme('mode', {
 })
 export const backgroundDarker = theme('mode', {
   light: '#fdfdfd',
-  dark: '#f39c12',
+  dark: '#ff7e55',
 })
