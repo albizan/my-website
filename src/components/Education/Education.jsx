@@ -25,9 +25,9 @@ const Education = () => {
         <h3 className="text-3xl sm:text-4xl font-bold text-center">
           Education
         </h3>
-        <div className="border-l-4 border-gray-800 mt-8">
+        <div className="border-l-4 border-black mt-8">
           <div className="relative pb-10">
-            <div className="absolute left-0 top-0 -ml-3 mt-2 w-5 h-5 bg-gray-800 rounded-full" />
+            <div className="absolute left-0 top-0 -ml-3 mt-2 w-5 h-5 bg-black rounded-full" />
             <div className="pl-10">
               <h4 className="text-2xl font-bold pb-2">High School Diploma</h4>
               <h6 className="font-thin">
@@ -37,7 +37,7 @@ const Education = () => {
           </div>
 
           <div className="relative pb-1">
-            <div className="absolute left-0 top-0 -ml-3 mt-2 w-5 h-5 bg-gray-800 rounded-full" />
+            <div className="absolute left-0 top-0 -ml-3 mt-2 w-5 h-5 bg-black rounded-full" />
             <div className="pl-10">
               <h4 className="text-2xl font-bold pb-2">Bachelor Degree</h4>
               <h6 className="font-thin">Politecnico di Torino - 2018</h6>
