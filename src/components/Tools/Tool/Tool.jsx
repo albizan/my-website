@@ -20,7 +20,7 @@ const Overlay = styled.div`
 const Tool = ({ logoUrl, item, text }) => {
   return (
     <div className="md:w-1/3 md:mb-16 relative">
-      <Overlay>
+      <Overlay className="hidden lg:block">
         <div className="flex flex-col h-full justify-center items-center">
           <h4 className="text-2xl">{item}</h4>
           <p className="text-sm">{text}</p>
