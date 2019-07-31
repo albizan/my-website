@@ -45,6 +45,11 @@ const Projects = () => {
             text="I love building UIs with this fantastic front-end library"
           />
           <Tool
+            logoUrl={tailwindLogo}
+            item="Tailwind"
+            text="Utility First CSS FTW!"
+          />
+          <Tool
             logoUrl={nodeLogo}
             item="Nodejs"
             text="Asynchronous, fast, lot of great packages... What else!"
@@ -53,11 +58,6 @@ const Projects = () => {
             logoUrl={nestLogo}
             item="Nestjs"
             text="Because of its out-of-the-box application architecture, oh and Typescript"
-          />
-          <Tool
-            logoUrl={tailwindLogo}
-            item="Tailwind"
-            text="Utility First CSS FTW!"
           />
         </div>
       </div>
