@@ -6,11 +6,11 @@ export const toggleTextColor = theme('mode', {
   dark: '#191919',
 })
 export const toggleBorderColor = theme('mode', {
-  light: '#efefef',
+  light: '#fdfdfd',
   dark: '#f39c12',
 })
 export const toggleBackgroundColor = theme('mode', {
-  light: '#efefef',
+  light: '#fdfdfd',
   dark: '#f39c12',
 })
 
@@ -20,6 +20,6 @@ export const toggleHoverTextColor = theme('mode', {
   dark: '#191919',
 })
 export const toggleHoverBackgroundColor = theme('mode', {
-  light: '#efefef',
+  light: '#fdfdfd',
   dark: '#f39c12',
 })

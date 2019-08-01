@@ -19,11 +19,12 @@ const ThemeToggle = ({ theme }) => {
     margin: 1.5rem 1.5rem 0 0;
     color: ${toggleTextColor};
     background-color: ${toggleBackgroundColor};
-    border-radius: 1.2rem;
+    border-radius: 1rem;
     border: 2px solid ${toggleBorderColor};
-    transition: opacity 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.8;
     &:hover {
-      opacity: 0.7;
+      opacity: 1;
       color: ${toggleHoverTextColor};
       background-color: ${toggleHoverBackgroundColor};
     }
