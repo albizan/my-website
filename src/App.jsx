@@ -4,7 +4,6 @@ import styled, { withTheme } from 'styled-components'
 /* Custom */
 import ThemeToggle from './components/ThemeToggle'
 import Landing from './components/Landing'
-import Greetings from './components/Greetings/Greetings'
 import Presentation from './components/Presentation/Presentation'
 import Education from './components/Education/Education'
 import Tools from './components/Tools'
@@ -24,7 +23,6 @@ function App() {
     <AppStyleWrapper>
       <ThemeToggle />
       <Landing />
-      <Greetings />
       <Presentation />
       <Education />
       <Tools />
