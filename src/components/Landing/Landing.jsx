@@ -18,9 +18,9 @@ const Landing = () => {
     color: ${landingTextColor};
     background-color: ${landingBackgroundDarker};
     background-image: linear-gradient(
-      20deg,
+      40deg,
       ${landingBackgroundLighter} 0%,
-      ${landingBackgroundDarker} 100%
+      ${landingBackgroundDarker} 90%
     );
   `
 

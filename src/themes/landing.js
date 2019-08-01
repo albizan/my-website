@@ -2,7 +2,7 @@ import theme from 'styled-theming'
 
 /* Landing Background Colors */
 export const landingBackgroundLighter = theme('mode', {
-  light: '#77B4D8',
+  light: '#FC5C7D',
   dark: '#111111',
 })
 export const landingBackgroundDarker = theme('mode', {
