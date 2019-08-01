@@ -1,7 +1,7 @@
 import theme from 'styled-theming'
 
 export const textColor = theme('mode', {
-  light: '#393d46',
+  light: '#282828',
   dark: '#000',
 })
 
