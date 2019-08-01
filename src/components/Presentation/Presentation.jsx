@@ -20,14 +20,14 @@ const GreetingsStyleWrapper = styled.section`
 
 const Greetings = () => {
   return (
-    <GreetingsStyleWrapper className="py-20 md:py-24">
-      <div className="mx-auto px-8 md:w-3/5">
-        <h3 className="text-3xl sm:text-4xl font-bold text-center mb-10">
+    <GreetingsStyleWrapper>
+      <div className="container w-5/6 md:w-4/5 lg:w-3/5 py-16">
+        <h3 className="text-3xl sm:text-4xl font-bold text-center lg:text-left mb-10 lg:border-b lg:border-gray-400">
           Nice to meet you!
         </h3>
-        <div className="text-lg sm:text-xl font-semibold text-justify">
+        <div className="text-lg sm:text-xl text-justify">
           <p>
-            Welcome on my website, I am glad you visited my personal space, here
+            Welcome to my website, I am glad you visited my personal space, here
             is where I am proud to show my skills, projects, past experiences
             and future hopes in the web development field.
           </p>
@@ -41,7 +41,8 @@ const Greetings = () => {
           </p>
           <p>
             I love new web technologies, both on the front-end and on the
-            back-end. I am currently study to become a fullstack developer.
+            back-end. I am currently study to become a fullstack developer with
+            React and Nodejs.
           </p>
           <p>
             I'm persistent, curious and continuosly working on improving my
