@@ -22,9 +22,7 @@ const Greetings = () => {
   return (
     <GreetingsStyleWrapper>
       <div className="container w-5/6 md:w-4/5 lg:w-3/5 py-16">
-        <h3 className="text-3xl sm:text-4xl font-bold text-center lg:text-left mb-10 lg:border-b lg:border-gray-400">
-          Nice to meet you!
-        </h3>
+        <h3 className="section-title">Nice to meet you!</h3>
         <div className="text-lg sm:text-xl text-justify">
           <p>
             Welcome to my website, I am glad you visited my personal space, here
