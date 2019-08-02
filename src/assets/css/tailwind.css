@@ -23,12 +23,12 @@
 }
 
 .section-text {
-  @apply text-lg text-left;
+  @apply text-lg text-justify;
 }
 
 @screen md {
   .section-text {
-    @apply text-xl text-center;
+    @apply text-xl;
   }
 }
 
