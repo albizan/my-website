@@ -35,4 +35,4 @@ const Tool = ({ logoUrl, item, text }) => {
   )
 }
 
-export default Tool
+export default withTheme(Tool)
