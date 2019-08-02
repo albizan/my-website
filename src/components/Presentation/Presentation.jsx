@@ -23,7 +23,7 @@ const Greetings = () => {
     <GreetingsStyleWrapper>
       <div className="container w-5/6 md:w-4/5 lg:w-3/5 py-16">
         <h3 className="section-title">Nice to meet you!</h3>
-        <div className="text-lg sm:text-xl text-justify">
+        <div className="section-text">
           <p>
             Welcome to my website, I am glad you visited my personal space, here
             is where I am proud to show my skills, projects, past experiences
