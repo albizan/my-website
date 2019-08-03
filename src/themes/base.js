@@ -6,7 +6,7 @@ export const baseBackgroundColor = theme('mode', {
 })
 
 export const baseTextColor = theme('mode', {
-  light: '#393d46',
+  light: '#333',
   dark: '#fdfdfd',
 })
 
