@@ -9,7 +9,7 @@ import Resume from './components/Resume'
 import Tools from './components/Tools'
 
 /* Import Theme variables */
-import { baseTextColor, baseBackgroundColor } from './themes/base'
+import { baseTextColor, baseBackgroundColor, titleColor } from './themes/base'
 
 function App() {
   /* Styling App with theme variables */
@@ -17,6 +17,10 @@ function App() {
     font-family: 'Titillium Web';
     background-color: ${baseBackgroundColor};
     color: ${baseTextColor};
+    .section-title {
+      color: ${titleColor};
+      border-color: ${titleColor};
+    }
   `
 
   return (
