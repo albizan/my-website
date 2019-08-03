@@ -610,12 +610,23 @@ video {
 
 /* Composing utilities */
 
+.section-container {
+  width: 83.333333%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .section-container {
+    width: 66.666667%;
+  }
+}
+
 .section-title {
   font-size: 1.875rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 2.5rem;
-  color: #5a67d8;
 }
 
 @media (min-width: 640px) {
@@ -628,7 +639,6 @@ video {
   .section-title {
     text-align: left;
     border-bottom-width: 1px;
-    border-color: #5a67d8;
   }
 }
 
@@ -637,7 +647,7 @@ video {
   text-align: justify;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .section-text {
     font-size: 1.25rem;
   }
