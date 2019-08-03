@@ -9,18 +9,14 @@ import Resume from './components/Resume'
 import Tools from './components/Tools'
 
 /* Import Theme variables */
-import { baseTextColor, baseBackgroundColor, titleColor } from './themes/base'
+import { textColor, backgroundColor } from './themes/base'
 
 function App() {
   /* Styling App with theme variables */
   const AppStyleWrapper = styled.section`
     font-family: 'Titillium Web';
-    background-color: ${baseBackgroundColor};
-    color: ${baseTextColor};
-    .section-title {
-      color: ${titleColor};
-      border-color: ${titleColor};
-    }
+    background-color: ${backgroundColor};
+    color: ${textColor};
   `
 
   return (
