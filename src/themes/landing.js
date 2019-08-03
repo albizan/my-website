@@ -6,7 +6,7 @@ export const landingBackgroundLighter = theme('mode', {
   dark: '#111111',
 })
 export const landingBackgroundDarker = theme('mode', {
-  light: '#6e45e2',
+  light: '#5a67d8',
   dark: '#111111',
 })
 
