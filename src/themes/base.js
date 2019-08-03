@@ -14,3 +14,8 @@ export const baseTextColorInverted = theme('mode', {
   light: '#fdfdfd',
   dark: '#393d46',
 })
+
+export const titleColor = theme('mode', {
+  light: '#5a67d8',
+  dark: '#5a67d8',
+})
