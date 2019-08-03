@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postcss": "postcss src/assets/css/tailwind.css -o src/assets/css/index.css --watch",
-    "dev": "npm-run-all --parallel postcss start"
+    "dev": "npm-run-all --serial start postcss"
   },
   "eslintConfig": {
     "extends": "react-app"
