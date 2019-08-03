@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { withTheme } from 'styled-components'
 
 /* Custom imports */
+import { titleColor } from '../../themes/base'
 import {
   textColor,
   backgroundLighter,
@@ -18,11 +19,16 @@ const GreetingsStyleWrapper = styled.section`
   );
 `
 
+const Title = styled.h3`
+  color: ${titleColor};
+  border-color: ${titleColor};
+`
+
 const Greetings = () => {
   return (
     <GreetingsStyleWrapper>
-      <div className="container w-5/6 md:w-4/5 lg:w-3/5 py-16">
-        <h3 className="section-title">Nice to meet you!</h3>
+      <div className="container section-container">
+        <Title className="section-title">Nice to meet you!</Title>
         <div className="section-text">
           <p>
             Welcome to my website, I am glad you visited my personal space, here
