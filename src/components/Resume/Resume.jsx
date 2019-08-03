@@ -1,34 +1,69 @@
 import React from 'react'
+import styled, { withTheme } from 'styled-components'
 
-/* Custom imports */
+/* Custom Imports */
+import {
+  textColor,
+  backgroundColor,
+  accentColor,
+  dividerColor,
+} from '../../themes/base'
+
+const Divider = styled.div`
+  position: relative;
+  background-color: ${dividerColor};
+  width: 1px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding: 0;
+`
+
+const Point = styled.div`
+  position: absolute;
+  top: 7px;
+  left: -6px;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: ${backgroundColor};
+  border: 2px solid ${accentColor};
+  border-radius: 50%;
+`
 
 const Resume = () => {
   return (
     <section className="container section-container">
-      <div className="mx-auto px-8 md:w-3/5">
-        <h3 className="text-3xl sm:text-4xl font-bold text-center">Resume</h3>
-        <div className="border-l-4 border-black mt-8">
-          <div className="relative pb-10">
-            <div className="absolute left-0 top-0 -ml-3 mt-2 w-5 h-5 bg-black rounded-full" />
-            <div className="pl-10">
-              <h4 className="text-2xl font-bold pb-2">High School Diploma</h4>
-              <h6 className="font-thin">
-                Scuola Internazionale Europea Statale Altiero Spinelli - 2015
-              </h6>
+      <h3 className="section-title">Resume</h3>
+      <div className="block md:flex">
+        <div className="w-full md:w-2/3 h-48 w-48">
+          <h4 className="inline-block text-xl sm:text-2xl font-bold border-b-2 border-indigo-600 mb-8">
+            Education
+          </h4>
+          <div id="timeline" className="flex">
+            <div className="flex-none hidden sm:block">
+              <div className="section-text">
+                <p className="text-right">2015</p>
+              </div>
             </div>
-          </div>
-
-          <div className="relative pb-1">
-            <div className="absolute left-0 top-0 -ml-3 mt-2 w-5 h-5 bg-black rounded-full" />
-            <div className="pl-10">
-              <h4 className="text-2xl font-bold pb-2">Bachelor Degree</h4>
-              <h6 className="font-thin">Politecnico di Torino - 2018</h6>
+            <Divider className="sm:ml-2">
+              <span className="text-transparent">.</span>
+              <Point />
+            </Divider>
+            <div className="flex-grow">
+              <div className="section-text">
+                <p className="sm:hidden">2015</p>
+                <p>High School Diploma</p>
+                <p className="text-sm text-gray-700 font-base">
+                  Scuola Internazionale Europea Statale Altiero Spinelli
+                </p>
+              </div>
             </div>
           </div>
         </div>
+        <div className="w-full md:w-1/3 h-48 w-48" />
       </div>
     </section>
   )
 }
 
-export default Resume
+export default withTheme(Resume)
