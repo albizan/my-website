@@ -646,6 +646,7 @@ video {
 .section-text {
   font-size: 1.125rem;
   text-align: justify;
+  font-weight: 600;
 }
 
 @media (min-width: 640px) {

@@ -32,7 +32,7 @@
 }
 
 .section-text {
-  @apply text-lg text-justify;
+  @apply text-lg text-justify font-semibold;
 }
 
 @screen sm {
