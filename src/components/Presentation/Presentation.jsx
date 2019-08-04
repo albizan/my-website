@@ -11,7 +11,7 @@ const Presentation = () => {
           future hopes in the web development field.
         </p>
         <p>
-          My name is Aberto Zanotti, I am a 23 years old geek located in
+          My name is Alberto Zanotti, I am a 23 years old geek located in
           beautiful Turin, Italy.
         </p>
         <p>
@@ -20,11 +20,11 @@ const Presentation = () => {
         </p>
         <p>
           I love new web technologies, both on the front-end and on the
-          back-end. I am currently study to become a fullstack developer with
-          React and Nodejs.
+          back-end. I am currently studying to become a full stack developer
+          with React and Nodejs.
         </p>
         <p>
-          I'm persistent, curious and continuosly working on improving my
+          I'm persistent, curious and continuously working on improving my
           capabilities.
         </p>
       </div>
