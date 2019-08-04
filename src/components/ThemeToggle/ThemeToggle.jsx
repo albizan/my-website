@@ -31,7 +31,7 @@ const ThemeToggle = ({ theme }) => {
   `
 
   return (
-    <div className="absolute top-0 right-0">
+    <div className="absolute top-0 right-0 z-10">
       <Toggle
         onClick={toggle}
         className="text-xs text-sm sm:text-base font-bold px-4 py-2"
