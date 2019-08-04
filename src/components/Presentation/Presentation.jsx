@@ -16,12 +16,12 @@ const Presentation = () => {
         </p>
         <p>
           I got my bachelor degree in Computer Engineering at the Politecnico di
-          Turin, year 2018.
+          Torino, year 2018.
         </p>
         <p>
           I love new web technologies, both on the front-end and on the
           back-end. I am currently studying to become a full stack developer
-          with React and Nodejs.
+          with Reactjs and Nodejs.
         </p>
         <p>
           I'm persistent, curious and continuously working on improving my
