@@ -11,11 +11,11 @@ const Presentation = () => {
           future hopes in the web development field.
         </p>
         <p>
-          My name is Alberto Zanotti, I am a 23 years old geek located in
+          My name is Alberto Zanotti, I am a 23 year old geek located in
           beautiful Turin, Italy.
         </p>
         <p>
-          I got my bachelor degree in Computer Science at the Politecnico di
+          I got my bachelor degree in Computer Engineering at the Politecnico di
           Turin, year 2018.
         </p>
         <p>
