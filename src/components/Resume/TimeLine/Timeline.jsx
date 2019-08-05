@@ -37,7 +37,7 @@ const Timeline = () => {
             <p className="text-right">2015</p>
           </div>
         </div>
-        <Divider className="sm:ml-2">
+        <Divider className="mx-3">
           <span className="text-transparent">.</span>
           <Point />
         </Divider>
@@ -59,7 +59,7 @@ const Timeline = () => {
             <p className="text-right">2018</p>
           </div>
         </div>
-        <Divider className="sm:ml-2">
+        <Divider className="mx-3">
           <span className="text-transparent">.</span>
           <Point />
         </Divider>
