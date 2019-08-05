@@ -12,6 +12,6 @@ export const landingBackgroundDarker = theme('mode', {
 
 /* Landing Text Color */
 export const landingTextColor = theme('mode', {
-  light: '#efefef',
+  light: '#fff',
   dark: '#efefef',
 })
