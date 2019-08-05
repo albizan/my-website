@@ -64,7 +64,7 @@ const Timeline = () => {
           <Point />
         </Divider>
         <div className="flex-grow">
-          <div className="section-text">
+          <div className="section-text text-left">
             <p className="sm:hidden">2018</p>
             <p>Bachelor Degree</p>
             <p className="text-base text-gray-600 font-base">
