@@ -32,12 +32,12 @@ const Timeline = () => {
   return (
     <div className="flex flex-col">
       <div id="timeline" className="flex">
-        <div className="flex-none hidden sm:block">
+        <div className="flex-none hidden sm:block mr-4">
           <div className="section-text">
             <p className="text-right">2015</p>
           </div>
         </div>
-        <Divider className="ml-4 mr-4">
+        <Divider className="mr-4">
           <span className="text-transparent">.</span>
           <Point />
         </Divider>
@@ -54,12 +54,12 @@ const Timeline = () => {
 
       {/* Second Itemd */}
       <div id="timeline" className="flex">
-        <div className="flex-none hidden sm:block">
+        <div className="flex-none hidden sm:block mr-4">
           <div className="section-text">
             <p className="text-right">2018</p>
           </div>
         </div>
-        <Divider className="ml-4 mr-4">
+        <Divider className="mr-4">
           <span className="text-transparent">.</span>
           <Point />
         </Divider>
