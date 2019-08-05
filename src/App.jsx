@@ -17,6 +17,7 @@ function App() {
     font-family: 'Titillium Web';
     background-color: ${backgroundColor};
     color: ${textColor};
+    user-select: none;
   `
 
   return (
