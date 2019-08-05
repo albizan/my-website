@@ -2,8 +2,8 @@
 
 @tailwind components;
 
-/* Titiliium font from Gogole Fonts */
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap');
+/* Poppins font from Gogole Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
 /* Composing utilities */
 .section-container {
@@ -16,23 +16,17 @@
 }
 
 .section-title {
-  @apply text-3xl font-bold text-center mb-8;
+  @apply text-3xl font-semibold text-center mb-6;
 }
 
-@screen sm {
-  .section-title {
-    @apply text-4xl;
-  }
-}
-
-@screen lg {
+@screen md {
   .section-title {
     @apply text-left border-b-2 mb-10;
   }
 }
 
 .section-text {
-  @apply text-lg text-justify font-semibold;
+  @apply text-lg text-justify;
 }
 
 @screen sm {

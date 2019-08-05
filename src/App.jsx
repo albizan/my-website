@@ -14,7 +14,7 @@ import { textColor, backgroundColor } from './themes/base'
 function App() {
   /* Styling App with theme variables */
   const AppStyleWrapper = styled.section`
-    font-family: 'Titillium Web';
+    font-family: 'Poppins', 'sans-serif';
     background-color: ${backgroundColor};
     color: ${textColor};
     user-select: none;
