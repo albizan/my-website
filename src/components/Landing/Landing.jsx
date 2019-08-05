@@ -33,7 +33,7 @@ const Landing = () => {
       ${landingBackgroundLighter} 0%,
       ${landingBackgroundDarker} 90%
     );
-    opacity: 0.7;
+    opacity: 0.6;
     z-index: 0;
   `
 
@@ -41,7 +41,7 @@ const Landing = () => {
     <LandingStyleWrapper>
       <div className="h-screen flex flex-col justify-center items-center select-none relative">
         <Overlay className="absolute inset-0" />
-        <div className="tracking-wide text-center px-3 mt-24 z-10">
+        <div className="tracking-wide text-center text-white px-3 mt-24 z-10">
           <p className="text-4xl md:text-5xl font-bold">
             Hello There! My name's Alberto
           </p>
