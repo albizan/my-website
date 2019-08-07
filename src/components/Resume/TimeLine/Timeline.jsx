@@ -1,19 +1,18 @@
 import React from 'react'
 import styled, { withTheme } from 'styled-components'
 
+/* Import theme colors */
 import {
-  backgroundColor,
   accentColor,
-  dividerColor,
+  backgroundColor,
+  textColorLighter,
 } from '../../../themes/base'
+import { dividerColor } from '../../../themes/resume'
 
 const Divider = styled.div`
   position: relative;
   background-color: ${dividerColor};
   width: 1px;
-  margin-left: 0px;
-  margin-right: 20px;
-  padding: 0;
 `
 
 const Point = styled.div`
@@ -28,6 +27,10 @@ const Point = styled.div`
   border-radius: 50%;
 `
 
+const SchoolName = styled.p`
+  color: ${textColorLighter};
+`
+
 const Timeline = () => {
   return (
     <div className="flex flex-col">
@@ -38,16 +41,16 @@ const Timeline = () => {
           </div>
         </div>
         <Divider className="mr-4">
-          <span className="text-transparent">.</span>
+          <span className="text-transparent">divider</span>
           <Point />
         </Divider>
         <div className="flex-grow">
           <div className="section-text text-left">
             <p className="sm:hidden">2015</p>
             <p>High School Diploma</p>
-            <p className="text-base text-gray-600 font-base mb-10">
+            <SchoolName className="text-base font-normal mb-10">
               Scuola Internazionale Europea Statale Altiero Spinelli
-            </p>
+            </SchoolName>
           </div>
         </div>
       </div>
@@ -67,9 +70,9 @@ const Timeline = () => {
           <div className="section-text text-left">
             <p className="sm:hidden">2018</p>
             <p>Bachelor Degree</p>
-            <p className="text-base text-gray-600 font-base">
+            <SchoolName className="text-base font-base">
               Politecnico di Torino
-            </p>
+            </SchoolName>
           </div>
         </div>
       </div>
