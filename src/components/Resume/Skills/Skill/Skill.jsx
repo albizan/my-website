@@ -8,10 +8,12 @@ import {
 } from '../../../../themes/base'
 
 const SkillBarWrapper = styled.div`
-  border-color: ${accentColor};
+  border: 1px solid ${accentColor};
+  padding: 2px;
 `
 const SkillBar = styled.div`
   width: ${props => props.width || '50%'};
+  height: 4px;
   background-color: ${accentColor};
 `
 const SkillName = styled.h5`
@@ -24,7 +26,7 @@ const SkillValue = styled.p`
 
 const Skill = ({ skill, value }) => {
   return (
-    <div>
+    <div className="mb-4">
       <div className="flex">
         <div className="w-1/2">
           <SkillName>{skill}</SkillName>
@@ -33,8 +35,8 @@ const Skill = ({ skill, value }) => {
           <SkillValue>{value}</SkillValue>
         </div>
       </div>
-      <SkillBarWrapper className="w-full p-1 bg-transparent border-2 rounded">
-        <SkillBar width={value} className="rounded h-1 px-2 py-1" />
+      <SkillBarWrapper className="w-full bg-transparent rounded">
+        <SkillBar width={value} className="rounded" />
       </SkillBarWrapper>
     </div>
   )
