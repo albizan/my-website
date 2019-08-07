@@ -3,11 +3,7 @@ import styled, { withTheme } from 'styled-components'
 
 /* Custom */
 import { useThemes } from '../../context/theme/context'
-import {
-  textColor,
-  backgroundColor,
-  borderColor,
-} from '../../themes/themeToggle'
+import { textColor, backgroundColor } from '../../themes/themeToggle'
 
 const ThemeToggle = ({ theme }) => {
   /* Retreive toggle function from context */
@@ -17,7 +13,6 @@ const ThemeToggle = ({ theme }) => {
     margin: 1.5rem 1.5rem 0 0;
     color: ${textColor};
     background-color: ${backgroundColor};
-    border: 2px solid ${borderColor};
     transition: opacity 0.4s;
     opacity: 0.7;
     &:hover {
