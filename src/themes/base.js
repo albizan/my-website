@@ -8,7 +8,7 @@ import theme from 'styled-theming'
 */
 export const backgroundColor = theme('mode', {
   light: '#fff',
-  dark: '#000',
+  dark: '#191919',
 })
 
 /* 
@@ -20,6 +20,16 @@ export const backgroundColor = theme('mode', {
 export const textColor = theme('mode', {
   light: '#333',
   dark: '#fdfdfd',
+})
+
+/* 
+  Define lighter text color, this may be applied to helper texts to define hierarchy in components
+  @light is a gray color
+  @dark is dirty tint of white
+*/
+export const textColorLighter = theme('mode', {
+  light: '#718096',
+  dark: '#a0aec0',
 })
 
 /* 
