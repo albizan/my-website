@@ -49,11 +49,6 @@ export const textColorDarker = theme('mode', {
   Other text colors or gradients may be used in specific Section Theme files
 */
 export const accentColor = theme('mode', {
-  light: '#6c5ce7',
-  dark: '#ff4757',
-})
-
-export const dividerColor = theme('mode', {
-  light: '#718096',
-  dark: '#718096',
+  light: '#7158e2', // Light Indigo
+  dark: '#e74c3c', // Alizarin
 })
