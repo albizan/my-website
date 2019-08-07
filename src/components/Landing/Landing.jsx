@@ -12,7 +12,7 @@ const Landing = () => {
     Used to theme component with styledComponents and styledTheming
   */
   const LandingStyleWrapper = styled.div`
-    background: url(${bg}) no-repeat center center fixed;
+    background: url(${bg}) no-repeat center center;
     background-size: cover;
   `
   const Overlay = styled.div`
