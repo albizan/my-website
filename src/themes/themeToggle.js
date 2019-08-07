@@ -10,3 +10,8 @@ export const backgroundColor = theme('mode', {
   light: '#fdfdfd',
   dark: '#ff4757', // Dark accent color -> 'Watermelon'
 })
+
+export const borderColor = theme('mode', {
+  light: '#6c5ce7',
+  dark: '#ff4757', // Dark accent color -> 'Watermelon'
+})
