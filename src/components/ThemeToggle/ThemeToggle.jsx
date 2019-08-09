@@ -35,7 +35,6 @@ const ThemeToggle = ({ theme }) => {
     font-size: 1rem;
     width: 50%;
     height: 100%;
-    text-align: center;
     background: ${props => (props.active ? backgroundColor : 'transparent')};
     color: ${props => (props.active ? textColor : '333')};
   `
@@ -44,10 +43,14 @@ const ThemeToggle = ({ theme }) => {
     <div id="toggle-wrapper" className="absolute lg:fixed top-0 right-0 z-10">
       <Toggle className="flex justify-center items-center rounded">
         <Button onClick={toggleLightTheme} active={theme.mode === 'light'}>
-          <FiSun />
+          <p className="text-center">
+            <FiSun />
+          </p>
         </Button>
         <Button onClick={toggleDarkTheme} active={theme.mode === 'dark'}>
-          <FiMoon />
+          <p className="text-center">
+            <FiMoon />
+          </p>
         </Button>
       </Toggle>
     </div>
