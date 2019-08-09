@@ -59,6 +59,28 @@ const Timeline = () => {
       <div id="timeline" className="flex">
         <div className="flex-none hidden sm:block mr-4">
           <div className="section-text">
+            <p className="text-right">2015</p>
+          </div>
+        </div>
+        <Divider className="mr-4">
+          <span className="text-transparent">.</span>
+          <Point />
+        </Divider>
+        <div className="flex-grow">
+          <div className="section-text text-left">
+            <p className="sm:hidden">2015</p>
+            <p>First Certificate</p>
+            <SchoolName className="text-base font-base mb-10">
+              University of Cambridge
+            </SchoolName>
+          </div>
+        </div>
+      </div>
+
+      {/* Third Itemd */}
+      <div id="timeline" className="flex">
+        <div className="flex-none hidden sm:block mr-4">
+          <div className="section-text">
             <p className="text-right">2018</p>
           </div>
         </div>
