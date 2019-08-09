@@ -28,10 +28,10 @@ const Skill = ({ skill, value }) => {
   return (
     <div className="mb-4">
       <div className="flex">
-        <div className="w-1/2">
+        <div className="w-4/5">
           <SkillName>{skill}</SkillName>
         </div>
-        <div className="w-1/2 text-right text-xs">
+        <div className="w-1/5 text-right text-xs">
           <SkillValue>{value}</SkillValue>
         </div>
       </div>
