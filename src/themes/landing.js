@@ -6,11 +6,11 @@ import theme from 'styled-theming'
   On dark theme, a dark overlay without gradient is applied. This is used to darken the background image
 */
 export const overlayLighter = theme('mode', {
-  light: '#7873f5',
+  light: '#111111',
   dark: '#111111',
 })
 export const overlayDarker = theme('mode', {
-  light: '#ec77ab',
+  light: '#111111',
   dark: '#111111',
 })
 
