@@ -7,7 +7,6 @@ import Landing from './components/Landing'
 import Presentation from './components/Presentation'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
-import Tools from './components/Tools'
 
 /* Import Theme variables */
 import { textColor, backgroundColor } from './themes/base'
@@ -28,7 +27,6 @@ function App() {
       <Presentation />
       <Resume />
       <Projects />
-      <Tools />
     </AppStyleWrapper>
   )
 }
