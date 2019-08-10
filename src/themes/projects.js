@@ -6,11 +6,11 @@ export const textColor = theme('mode', {
 })
 
 /* Background colors */
-export const backgroundLighter = theme('mode', {
-  light: '#77B4D8',
-  dark: '#111111',
+export const backgroundColor = theme('mode', {
+  light: '#f7fafc',
+  dark: '#222',
 })
-export const backgroundDarker = theme('mode', {
-  light: '#6e45e2',
-  dark: '#111111',
+export const cardBackground = theme('mode', {
+  light: '#fff',
+  dark: '#000',
 })
