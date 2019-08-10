@@ -6,6 +6,7 @@ import ThemeToggle from './components/ThemeToggle'
 import Landing from './components/Landing'
 import Presentation from './components/Presentation'
 import Resume from './components/Resume'
+import Projects from './components/Projects'
 import Tools from './components/Tools'
 
 /* Import Theme variables */
@@ -26,6 +27,7 @@ function App() {
       <Landing />
       <Presentation />
       <Resume />
+      <Projects />
       <Tools />
     </AppStyleWrapper>
   )
