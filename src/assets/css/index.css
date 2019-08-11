@@ -7105,6 +7105,10 @@ video {
   color: #702459;
 }
 
+.text-2xs {
+  font-size: 0.65rem;
+}
+
 .text-xs {
   font-size: 0.75rem;
 }
@@ -14010,6 +14014,10 @@ video {
 
   .sm\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .sm\:text-2xs {
+    font-size: 0.65rem;
   }
 
   .sm\:text-xs {
@@ -20920,6 +20928,10 @@ video {
     color: #702459;
   }
 
+  .md\:text-2xs {
+    font-size: 0.65rem;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
   }
@@ -27828,6 +27840,10 @@ video {
     color: #702459;
   }
 
+  .lg\:text-2xs {
+    font-size: 0.65rem;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
   }
@@ -34734,6 +34750,10 @@ video {
 
   .xl\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .xl\:text-2xs {
+    font-size: 0.65rem;
   }
 
   .xl\:text-xs {
