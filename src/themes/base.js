@@ -42,6 +42,11 @@ export const textColorDarker = theme('mode', {
   dark: '#fff',
 })
 
+export const textColorInverted = theme('mode', {
+  light: '#fdfdfd',
+  dark: '#333',
+})
+
 /* 
   Define the main accent color for both themes
   @light is an indigo (blue-violet) color called 'Exodus Fruit'
