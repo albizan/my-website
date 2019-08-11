@@ -1,10 +1,37 @@
 import React from 'react'
 import styled, { withTheme } from 'styled-components'
 
+import {
+  textColorDarker,
+  textColorLighter,
+  textColorInverted,
+  accentColor,
+} from '../../../themes/base'
+import { cardBackground } from '../../../themes/projects'
+
 const Project = () => {
+  const CardProject = styled.div`
+    background-color: ${cardBackground};
+  `
+  const CardTitle = styled.h4`
+    color: ${textColorDarker};
+  `
+
+  const CardDescription = styled.p`
+    color: ${textColorLighter};
+  `
+
+  const CardPill = styled.span`
+    color: ${textColorInverted};
+    background-color: ${accentColor};
+  `
+
   return (
-    <div id="project-wrapper" className="w-full md:w-1/3 lg:1/4 p-3 mb-4">
-      <div className="rounded-lg overflow-hidden bg-white shadow-lg">
+    <div
+      id="project-wrapper"
+      className="w-full sm:w-1/2 md:w-1/3 lg:1/4 sm:px-2 md:px-3 lg:px-4 mb-4"
+    >
+      <CardProject className="rounded-lg overflow-hidden shadow-lg">
         <img
           src="https://picsum.photos/500/250"
           alt="test"
@@ -12,19 +39,19 @@ const Project = () => {
         />
         <div className="p-6">
           <div id="techs">
-            <span className="bg-teal-300 text-gray-700 rounded-full px-2 py-1 text-xs tracking-tight uppercase font-semibold mr-2">
+            <CardPill className="rounded-full px-2 py-1 text-2xs tracking-wide font-semibold uppercase mr-2">
               front-end
-            </span>
+            </CardPill>
           </div>
-          <h4 className="font-semibold tracking-wide truncate mt-3">
+          <CardTitle className="font-semibold tracking-wide truncate mt-3">
             This very website
-          </h4>
-          <p className="text-sm md:text-base text-gray-700 text-justify leading-snug">
+          </CardTitle>
+          <CardDescription className="text-xs md:text-sm leading-snug">
             This is my personal website, here I tried exploring some exciting
             new libraries.
-          </p>
+          </CardDescription>
         </div>
-      </div>
+      </CardProject>
     </div>
   )
 }
