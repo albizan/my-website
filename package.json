@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postcss": "postcss src/assets/css/tailwind.css -o src/assets/css/index.css --watch",
-    "dev": "run-p start postcss"
+    "postcss": "postcss src/assets/css/tailwind.css -o src/assets/css/index.css",
+    "dev": "run-s postcss start"
   },
   "eslintConfig": {
     "extends": "react-app"
