@@ -29,7 +29,7 @@ const Project = () => {
   return (
     <div
       id="project-wrapper"
-      className="w-full sm:w-1/2 md:w-1/3 lg:1/4 sm:px-2 md:px-3 lg:px-4 mb-4"
+      className="w-full sm:w-1/2 md:w-1/3 lg:1/4 px-2 md:px-3 lg:px-4 mb-4"
     >
       <CardProject className="rounded-lg overflow-hidden shadow-lg">
         <img
