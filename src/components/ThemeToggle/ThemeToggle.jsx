@@ -4,7 +4,7 @@ import { FiSun, FiMoon } from 'react-icons/fi'
 
 /* Custom */
 import { useThemes } from '../../context/theme/context'
-import { textColor, backgroundColor } from '../../themes/themeToggle'
+import { iconColor, iconColorActive, backgroundColor } from '../../themes/themeToggle'
 
 const ThemeToggle = ({ theme }) => {
   /* Retreive toggle function from context */
@@ -23,7 +23,6 @@ const ThemeToggle = ({ theme }) => {
 
   const Toggle = styled.div`
     margin: 1.5rem 1.5rem 0 0;
-    color: ${backgroundColor};
     width: 6.5rem;
     height: 2.5rem;
     border: 2px solid ${backgroundColor};
@@ -36,7 +35,7 @@ const ThemeToggle = ({ theme }) => {
     width: 50%;
     height: 100%;
     background: ${props => (props.active ? backgroundColor : 'transparent')};
-    color: ${props => (props.active ? textColor : '333')};
+    color: ${props => (props.active ? iconColorActive : iconColor)};
   `
 
   return (
