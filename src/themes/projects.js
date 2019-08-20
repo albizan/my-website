@@ -2,7 +2,7 @@ import theme from 'styled-theming'
 
 export const cardBackground = theme('mode', {
   light: '#fff',
-  dark: '#161616',
+  dark: '#191427',
 })
 
 export const pillTextColor = theme('mode', {
