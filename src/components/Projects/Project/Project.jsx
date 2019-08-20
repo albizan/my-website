@@ -4,10 +4,9 @@ import styled, { withTheme } from 'styled-components'
 import {
   textColorDarker,
   textColorLighter,
-  textColorInverted,
   accentColor,
 } from '../../../themes/base'
-import { cardBackground } from '../../../themes/projects'
+import { cardBackground, pillTextColor } from '../../../themes/projects'
 
 const Project = () => {
   const CardProject = styled.div`
@@ -22,7 +21,7 @@ const Project = () => {
   `
 
   const CardPill = styled.span`
-    color: ${textColorInverted};
+    color: ${pillTextColor};
     background-color: ${accentColor};
   `
 
