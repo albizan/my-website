@@ -7,6 +7,6 @@ export const textColor = theme('mode', {
 })
 
 export const backgroundColor = theme('mode', {
-  light: '#7158e2',
-  dark: '#e74c3c', // Alizarin
+  light: '#6c5ce7',
+  dark: '#4717F6',
 })

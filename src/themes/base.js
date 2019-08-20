@@ -7,8 +7,8 @@ import theme from 'styled-theming'
   Other background colors may be used in specific Section Theme files
 */
 export const backgroundColor = theme('mode', {
-  light: '#fff',
-  dark: '#191919',
+  light: '#FFF',
+  dark: '#0E0B16',
 })
 
 /* 
@@ -19,7 +19,7 @@ export const backgroundColor = theme('mode', {
 */
 export const textColor = theme('mode', {
   light: '#333',
-  dark: '#fdfdfd',
+  dark: '#FDFDFD',
 })
 
 /* 
@@ -54,6 +54,6 @@ export const textColorInverted = theme('mode', {
   Other text colors or gradients may be used in specific Section Theme files
 */
 export const accentColor = theme('mode', {
-  light: '#7158e2', // Light Indigo
-  dark: '#e74c3c', // Alizarin
+  light: '#6c5ce7',
+  dark: '#4717F6',
 })
