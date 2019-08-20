@@ -7,17 +7,17 @@ import theme from 'styled-theming'
 */
 export const overlayLighter = theme('mode', {
   light: '#576574',
-  dark: '#000',
+  dark: '#0E0B16',
 })
 export const overlayDarker = theme('mode', {
   light: '#111',
-  dark: '#000',
+  dark: '#0E0B16',
 })
 
 /*
   These are the color used for Landing Page titles
 */
 export const titleColor = theme('mode', {
-  light: '#fff',
-  dark: '#efefef',
+  light: '#FAFAFA',
+  dark: '#FAFAFA',
 })
