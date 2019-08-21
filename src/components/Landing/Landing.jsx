@@ -3,7 +3,6 @@ import styled, { withTheme } from 'styled-components'
 
 /* Custom Imports */
 import avatar from '../../assets/img/avatar.png'
-import bg from '../../assets/img/bg.jpg'
 import { titleColor, overlayLighter, overlayDarker } from '../../themes/landing'
 
 const Landing = () => {
@@ -12,7 +11,7 @@ const Landing = () => {
     Used to theme component with styledComponents and styledTheming
   */
   const LandingStyleWrapper = styled.div`
-    background: url(${bg}) no-repeat center center;
+    background: url('https://res.cloudinary.com/albjzan/image/upload/v1566334715/my-website/bg.jpg') no-repeat center center;
     background-size: cover;
   `
   const Overlay = styled.div`
