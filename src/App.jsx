@@ -17,7 +17,6 @@ function App() {
     font-family: 'Poppins', 'sans-serif';
     background-color: ${backgroundColor};
     color: ${textColor};
-    user-select: none;
   `
 
   return (
