@@ -4,7 +4,11 @@ import { FiSun, FiMoon } from 'react-icons/fi'
 
 /* Custom */
 import { useThemes } from '../../context/theme/context'
-import { iconColor, iconColorActive, backgroundColor } from '../../themes/themeToggle'
+import {
+  iconColor,
+  iconColorActive,
+  backgroundColor,
+} from '../../themes/themeToggle'
 
 const ThemeToggle = ({ theme }) => {
   /* Retreive toggle function from context */
@@ -40,7 +44,7 @@ const ThemeToggle = ({ theme }) => {
 
   return (
     <div id="toggle-wrapper" className="absolute lg:fixed top-0 right-0 z-10">
-      <Toggle className="flex justify-center items-center rounded">
+      <Toggle className="flex justify-center items-center rounded-full overflow-hidden">
         <Button onClick={toggleLightTheme} active={theme.mode === 'light'}>
           <p className="text-center">
             <FiSun />
