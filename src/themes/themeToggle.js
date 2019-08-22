@@ -13,5 +13,5 @@ export const iconColorActive = theme('mode', {
 
 export const backgroundColor = theme('mode', {
   light: '#6c5ce7',
-  dark: '#4717F6',
+  dark: '#1757f6',
 })

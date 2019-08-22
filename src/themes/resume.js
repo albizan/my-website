@@ -5,5 +5,5 @@ import theme from 'styled-theming'
 */
 export const dividerColor = theme('mode', {
   light: '#6c5ce7',
-  dark: '#4717F6',
+  dark: '#1757f6',
 })
