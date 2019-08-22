@@ -29,10 +29,7 @@ const Project = ({ img, title, description, categories, technologies }) => {
   `
 
   return (
-    <div
-      id="project-wrapper"
-      className="w-full md:w-1/2 lg:w-1/3 px-2 md:px-3 lg:px-4 mb-4"
-    >
+    <div id="project-wrapper" className="w-full lg:w-1/2 px-4 mb-4">
       <CardProject className="rounded-lg overflow-hidden shadow-lg">
         <img
           src={img}
@@ -51,19 +48,18 @@ const Project = ({ img, title, description, categories, technologies }) => {
               </CardPill>
             ))}
           </div>
-          <CardTitle className="font-semibold tracking-wide truncate mt-3">
-            {title}
-          </CardTitle>
-          <CardDescription className="text-xs md:text-sm leading-snug">
-            {description}
-          </CardDescription>
-          <div id="technologies" className="mt-8">
+          <div className="h-auto lg:h-48">
+            <CardTitle className="font-semibold tracking-wide truncate mt-3 text-xl md:text-xl">
+              {title}
+            </CardTitle>
+            <CardDescription className="text-sm md:text-base leading-snug">
+              {description}
+            </CardDescription>
+          </div>
+          <div id="technologies" className="mt-12">
             <p className="font-semibold">Tech used:</p>
             {technologies.map((tech, i) => (
-              <Tech
-                key={i}
-                className="px-1 text-base"
-              >
+              <Tech key={i} className="mr-2 text-base">
                 {tech}
               </Tech>
             ))}
