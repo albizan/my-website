@@ -21,7 +21,7 @@ const Presentation = () => {
         <p>
           I love new web technologies, both on the front-end and on the
           back-end. I am currently studying to become a full stack developer
-          with Reactjs and Nodejs.
+          with React and Node.
         </p>
         <p>
           I'm persistent, curious and continuously working on improving my
