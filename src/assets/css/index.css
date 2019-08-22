@@ -608,6 +608,12 @@ video {
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
+@font-face {
+  font-family: Euro;
+
+  src: url('../font.otf') format('opentype');
+}
+
 /* Composing utilities */
 
 .section-container {
