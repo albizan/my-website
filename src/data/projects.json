@@ -8,11 +8,11 @@
       "technologies": ["react", "styled-components", "tailwind"]
     },
     {
-      "title": "Test",
-      "img": "",
-      "description": "Test",
-      "categories": ["Test"],
-      "technologies": ["Test"]
+      "title": "Git Finder",
+      "img": "https://res.cloudinary.com/albjzan/image/upload/v1566491960/my-website/git-finder.jpg",
+      "description": "Git-finder was my first attempt to create a React dynamic web app to consume APIs. Here is where I discovered the utility first approach to style HTML elements. I built git-finder to start my journey with React and its ecosystem. React Router was also used.",
+      "categories": ["front-end"],
+      "technologies": ["react", "tailwind"]
     }
   ]
 }
