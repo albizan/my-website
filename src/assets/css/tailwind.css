@@ -2,10 +2,7 @@
 
 @tailwind components;
 
-@font-face {
-  font-family: Euro;
-  src: url('../font.otf') format('opentype');
-}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap');
 
 /* Composing utilities */
 .section-container {

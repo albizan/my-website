@@ -604,15 +604,7 @@ video {
   }
 }
 
-/* Poppins font from Gogole Fonts */
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
-
-@font-face {
-  font-family: Euro;
-
-  src: url('../font.otf') format('opentype');
-}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap');
 
 /* Composing utilities */
 
