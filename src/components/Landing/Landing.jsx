@@ -37,8 +37,10 @@ const Landing = () => {
       <div className="h-screen flex flex-col justify-center items-center select-none relative">
         <Overlay className="absolute inset-0" />
         <div className="tracking-wider text-center font-semibold px-3 mt-20 z-10">
-          <Title className="text-3xl md:text-4xl">Alberto Zanotti</Title>
-          <Subtitle className="text-lg md:text-xl">
+          <Title className="text-3xl md:text-5xl tracking-wide">
+            Alberto Zanotti
+          </Title>
+          <Subtitle className="text-lg md:text-2xl tracking-wide font-light">
             Junior web developer
           </Subtitle>
         </div>
