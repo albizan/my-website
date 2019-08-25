@@ -12,6 +12,14 @@ const Project = ({ img, title, description, categories, technologies }) => {
   const CardProject = styled.div`
     background-color: ${cardBackground};
   `
+  const CardImageWrapper = styled.div`
+    img {
+      transition: transform 2s ease;
+      &:hover {
+        transform: scale(1.25) rotate(5deg);
+      }
+    }
+  `
   const CardTitle = styled.h4`
     color: ${textColorDarker};
   `
@@ -31,12 +39,15 @@ const Project = ({ img, title, description, categories, technologies }) => {
   return (
     <div id="project-wrapper" className="w-full lg:w-1/2 xl:w-1/3 px-4 mb-4">
       <CardProject className="rounded-lg overflow-hidden shadow-lg">
-        <img
-          src={img}
-          loading="lazy"
-          alt="test"
-          className="mx-auto w-full object-cover"
-        />
+        <CardImageWrapper className="overflow-hidden">
+          <img
+            src={img}
+            loading="lazy"
+            alt="test"
+            className="mx-auto w-full object-cover"
+          />
+        </CardImageWrapper>
+
         <div className="p-6">
           <div id="categories">
             {categories.map((category, i) => (
@@ -48,7 +59,7 @@ const Project = ({ img, title, description, categories, technologies }) => {
               </CardPill>
             ))}
           </div>
-          <div className="h-auto lg:h-48">
+          <div className="h-auto lg:h-64">
             <CardTitle className="font-semibold tracking-wide truncate mt-3 text-xl md:text-xl">
               {title}
             </CardTitle>
