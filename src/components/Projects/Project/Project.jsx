@@ -37,7 +37,7 @@ const Project = ({ img, title, description, categories, technologies }) => {
   `
 
   return (
-    <div id="project-wrapper" className="w-full lg:w-1/2 xl:w-1/3 px-4 mb-4">
+    <div id="project-wrapper" className="w-full lg:w-1/2 xl:w-1/3 px-4 mb-8">
       <CardProject className="rounded-lg overflow-hidden shadow-lg">
         <CardImageWrapper className="overflow-hidden">
           <img
@@ -60,10 +60,10 @@ const Project = ({ img, title, description, categories, technologies }) => {
             ))}
           </div>
           <div className="h-auto lg:h-64">
-            <CardTitle className="font-semibold tracking-wide truncate mt-3 text-xl md:text-xl">
+            <CardTitle className="font-semibold tracking-wide truncate mt-4 text-lg md:text-xl">
               {title}
             </CardTitle>
-            <CardDescription className="text-sm md:text-base leading-snug">
+            <CardDescription className="text-sm md:text-base leading-snug mt-2">
               {description}
             </CardDescription>
           </div>
