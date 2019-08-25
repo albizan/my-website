@@ -24,6 +24,12 @@ const Presentation = () => {
           with React and Node.
         </p>
         <p>
+          As a web developer, officialy I make websites and design restful APIs.
+          But really? Well, I try to build software users appreciate: secure,
+          fast, easy to use and understand with a clean and elegant user
+          interface.
+        </p>
+        <p>
           I'm persistent, curious and continuously working on improving my
           capabilities.
         </p>
