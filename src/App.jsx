@@ -5,6 +5,7 @@ import styled, { withTheme } from 'styled-components'
 import ThemeToggle from './components/ThemeToggle'
 import Landing from './components/Landing'
 import Presentation from './components/Presentation'
+import Tools from './components/Tools'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
 
@@ -24,6 +25,7 @@ function App() {
       <ThemeToggle />
       <Landing />
       <Presentation />
+      <Tools />
       <Resume />
       <Projects />
     </AppStyleWrapper>
