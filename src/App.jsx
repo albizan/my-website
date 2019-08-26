@@ -15,7 +15,7 @@ import { textColor, backgroundColor } from './themes/base'
 function App() {
   /* Styling App with theme variables */
   const AppStyleWrapper = styled.section`
-    font-family: 'Ubuntu', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     background-color: ${backgroundColor};
     color: ${textColor};
   `
