@@ -1,19 +1,20 @@
-import React from 'react'
-import styled, { withTheme } from 'styled-components'
+import React from 'react';
 
-import Tool from './Tool'
+import data from '../../data/tools.json';
+
+import Tool from './Tool';
 
 const Tools = () => {
-  return (
-    <section className="container section-container">
-      <h3 className="section-title">Tools I like to use</h3>
-      <div className="block md:flex md:justify-start md:flex-wrap md:items-center">
-        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
-          <Tool />
-        </div>
-      </div>
-    </section>
-  )
-}
+	const { tools } = data;
 
-export default withTheme(Tools)
+	return (
+		<section className="container section-container">
+			<h3 className="section-title">Tools I like to use</h3>
+			<div className="block md:flex md:justify-start md:flex-wrap md:items-center">
+				{tools.map((tool) => <Tool key={tool.id} details={tool} />)}
+			</div>
+		</section>
+	);
+};
+
+export default Tools;
