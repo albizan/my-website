@@ -1,0 +1,29 @@
+{
+	"tools": [
+		{
+			"id": 1,
+			"name": "VsCode",
+			"image": "https://ik.imagekit.io/albizan/vscode_ZjXLocX9kX.png"
+		},
+		{
+			"id": 2,
+			"name": "Tailwind",
+			"image": "https://ik.imagekit.io/albizan/tailwind_qKc0uLsFg.png"
+		},
+		{
+			"id": 3,
+			"name": "React",
+			"image": "https://ik.imagekit.io/albizan/react_o6aV5Fwjk.png"
+		},
+		{
+			"id": 4,
+			"name": "Node",
+			"image": "https://ik.imagekit.io/albizan/node_Xuad1CRdBk.png"
+		},
+		{
+			"id": 5,
+			"name": "Nest",
+			"image": "https://ik.imagekit.io/albizan/nest_2Q2jYDzUy-.png"
+		}
+	]
+}
