@@ -1,18 +1,22 @@
 {
-  "projects": [
-    {
-      "title": "My Personal Website",
-      "img": "https://res.cloudinary.com/albjzan/image/upload/v1566334706/my-website/project-portfolio.jpg",
-      "description": "This is my personal website, here I tried exploring and experimenting with some exciting new tools such us TailwindCSS and styled-components. I wanted my portfolio website to be as fast as possible and beautiful in aesthetics, with a clean and sleek user interface. Here, Adam Wathan's TailwindCSS is used to style each component with the utility-first approach and styled-components are used primarily with styled-theming to style each part of this portfolio with a light and a dark theme.",
-      "categories": ["front-end"],
-      "technologies": ["react", "styled-components", "tailwind"]
-    },
-    {
-      "title": "Git Finder",
-      "img": "https://res.cloudinary.com/albjzan/image/upload/v1566491960/my-website/git-finder.jpg",
-      "description": "Git-finder was my first attempt to create a React dynamic web app to consume APIs. Here is where I discovered the utility first approach to style HTML elements. I built git-finder to start my journey with React and its ecosystem. React Router was also used.",
-      "categories": ["front-end"],
-      "technologies": ["react", "tailwind"]
-    }
-  ]
+	"projects": [
+		{
+			"title": "My Personal Website",
+			"img": "https://res.cloudinary.com/albjzan/image/upload/v1566334706/my-website/project-portfolio.jpg",
+			"description": "This is my personal website, here I tried exploring and experimenting with some exciting new tools such us TailwindCSS and styled-components. I wanted my portfolio website to be as fast as possible and beautiful in aesthetics, with a clean and sleek user interface. Here, Adam Wathan's TailwindCSS is used to style each component with the utility-first approach and styled-components are used primarily with styled-theming to style each part of this portfolio with a light and a dark theme.",
+			"categories": [ "front-end", "static site" ],
+			"technologies": [ "javascript", "react", "styled-components", "tailwind" ],
+			"link": "",
+			"github": "https://github.com/albizan/my-website"
+		},
+		{
+			"title": "Git Finder",
+			"img": "https://res.cloudinary.com/albjzan/image/upload/v1566491960/my-website/git-finder.jpg",
+			"description": "Git-finder was my first attempt to create a React dynamic web app to consume APIs. Here is where I discovered the utility first approach to style HTML elements. I built git-finder to start my journey with React and its ecosystem. React Router was also used.",
+			"categories": [ "front-end", "web app" ],
+			"technologies": [ "javascript", "react", "react-router-dom", "tailwind" ],
+			"link": "https://findgituser.netlify.com/",
+			"github": "https://github.com/albizan/git-finder"
+		}
+	]
 }
