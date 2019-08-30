@@ -93,7 +93,7 @@ const Tool = ({ details }) => {
 		<div className="w-full md:w-1/2 lg:w-1/3 px-4">
 			<ToolCard>
 				<div id="image-box">
-					<img src={image} alt={`${name} logo`} className="h-16 w-16" />
+					<img src={image} alt={`${name} logo`} className="h-16 w-16 mx-auto" />
 					<h3 className="text-center uppercase mt-6 font-bold tracking-wider">{name}</h3>
 				</div>
 				<Button>
