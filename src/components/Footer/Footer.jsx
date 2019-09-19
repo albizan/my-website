@@ -9,7 +9,7 @@ const FooterContent = styled.p`
   background-color: ${accentColor};
   color: white;
   padding: 2rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 
   @media screen {
   }
