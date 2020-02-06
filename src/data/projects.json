@@ -1,30 +1,47 @@
 {
-	"projects": [
-		{
-			"title": "My Personal Website",
-			"img": "https://ik.imagekit.io/albizan/1_sv3XZE--y.png",
-			"description": "This is my personal website, here I tried exploring and experimenting with some exciting new tools such us TailwindCSS and styled-components. I wanted my portfolio website to be as fast as possible and beautiful in aesthetics, with a clean and sleek user interface. Here, Adam Wathan's TailwindCSS is used to style each component with the utility-first approach and styled-components are used primarily with styled-theming to style each part of this portfolio with a light and a dark theme.",
-			"categories": [ "front-end", "static site" ],
-			"technologies": [ "react", "styled-components", "tailwind", "post-css" ],
-			"link": "",
-			"github": "https://github.com/albizan/my-website"
-		},
-		{
-			"title": "Git Finder",
-			"img": "https://ik.imagekit.io/albizan/2_5aa1dNfUI.png",
-			"description": "Git-finder was my first attempt to create a React dynamic web app to consume APIs. Here is where I discovered the utility first approach to style HTML elements. I built git-finder to start my journey with React and its ecosystem. React Router was also used.",
-			"categories": [ "front-end", "web app" ],
-			"technologies": [ "react", "react-router", "tailwind", "post-css" ],
-			"link": "https://findgituser.netlify.com/",
-			"github": "https://github.com/albizan/git-finder"
-		},
-		{
-			"title": "Web Master for Architectural Firm",
-			"img": "https://ik.imagekit.io/albizan/3_7Z_PZ0x4R5.png",
-			"description": "Architectural Firm website. A customized HTML template was used.",
-			"categories": [ "static website" ],
-			"technologies": [ "HTML", "CSS" ],
-			"link": "https://www.artomzanotti.it"
-		}
-	]
+  "projects": [
+    {
+      "title": "My Personal Website",
+      "img": "https://ik.imagekit.io/albizan/1_sv3XZE--y.png",
+      "description": "This is my personal website, here I tried exploring and experimenting with some exciting new tools such us TailwindCSS and styled-components. I wanted my portfolio website to be as fast as possible and beautiful in aesthetics, with a clean and sleek user interface. Here, Adam Wathan's TailwindCSS is used to style each component with the utility-first approach and styled-components are used primarily with styled-theming to style each part of this portfolio with a light and a dark theme.",
+      "categories": ["front-end", "static site"],
+      "technologies": ["react", "styled-components", "tailwind", "post-css"],
+      "link": "",
+      "github": "https://github.com/albizan/my-website"
+    },
+    {
+      "title": "Git Finder",
+      "img": "https://ik.imagekit.io/albizan/2_5aa1dNfUI.png",
+      "description": "Git-finder was my first attempt to create a React dynamic web app to consume APIs. Here is where I discovered the utility first approach to style HTML elements. I built git-finder to start my journey with React and its ecosystem. React Router was also used.",
+      "categories": ["front-end", "web app"],
+      "technologies": ["react", "react-router", "tailwind", "post-css"],
+      "link": "https://findgituser.netlify.com/",
+      "github": "https://github.com/albizan/git-finder"
+    },
+    {
+      "title": "Web Master for Architectural Firm",
+      "img": "https://ik.imagekit.io/albizan/3_7Z_PZ0x4R5.png",
+      "description": "Architectural Firm website. A customized HTML template was used.",
+      "categories": ["static website"],
+      "technologies": ["HTML", "CSS"],
+      "link": "https://www.artomzanotti.it"
+    },
+    {
+      "title": "Shortify",
+      "img": "https://ik.imagekit.io/albizan/Cattura__1__VOvMkDLck.PNG",
+      "description": "Shortify is a link shortner. I made this web app while experimenting with some of my favourite technologies: React, Nodejs and Containers. The front-end is hosted on Netlify while the back-end is containerized thanks to Docker on a private VPS. I made a user registration process, passwords are safely hashed with bcrypt. Users can shorten and manage their links, that can be activated or deactived when requested",
+      "categories": ["full stack", "docker"],
+      "technologies": [
+        "React",
+        "Nodejs",
+        "tailwind",
+        "formik",
+        "Nestjs",
+        "Docker"
+      ],
+      "link": "https://shortify.albertozanotti.it",
+      "github": "https://github.com/albizan/shortify-frontend",
+      "github2": "https://github.com/albizan/shortify-backend"
+    }
+  ]
 }
